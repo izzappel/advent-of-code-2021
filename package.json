@@ -2,5 +2,12 @@
   "name": "adventofcode2021",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "do": "node ./src/run.js"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
 }
