@@ -92,7 +92,6 @@ const main = (data) => {
 
 
   const dangerousPoints = Object.values(map).filter((n) => n > 1).length
-  console.log(dangerousPoints)
   return dangerousPoints
 }
 
